@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Printly">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4338ca"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+
+  <!-- Page with a folded corner -->
+  <path d="M160 96h152l64 64v232a24 24 0 0 1-24 24H160a24 24 0 0 1-24-24V120a24 24 0 0 1 24-24z" fill="#fff"/>
+  <path d="M312 96l64 64h-40a24 24 0 0 1-24-24z" fill="#c7d2fe"/>
+
+  <!-- P -->
+  <path fill-rule="evenodd" d="M184 176h64a56 56 0 0 1 0 112h-24v80h-40zM224 216v32h24a16 16 0 0 0 0-32z" fill="url(#ink)"/>
+
+  <!-- Right-aligned text lines: a nod to right-to-left writing -->
+  <rect x="252" y="318" width="88" height="16" rx="8" fill="#c7d2fe"/>
+  <rect x="284" y="352" width="56" height="16" rx="8" fill="#c7d2fe"/>
+</svg>
